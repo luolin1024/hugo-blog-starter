@@ -16,8 +16,6 @@
 [luolin.online](https://luolin.online/)
 
 ## 主题
-当前starter默认支持4个主题：
-- [DoIt(直接在config.toml中配置即可）](https://github.com/HEIGE-PCloud/DoIt?tab=readme-ov-file)
-- [clarity(直接在config.toml中配置即可)](https://github.com/chipzoller/hugo-clarity)
-- [PaperMod(直接在config.toml中配置即可)](https://github.com/adityatelange/hugo-PaperMod)
-- [next(只能使用config.yml，原config.toml文件需改名)](https://github.com/hugo-next/hugo-theme-next)
+当前starter默认支持2个主题：
+- [DoIt(直接在config.toml中配置即可）](https://github.com/HEIGE-PCloud/DoIt?tab=readme-ov-file) (本项目doit分支，可在vercel部署后用本地分支为doit分支对master进行覆盖)
+- [PaperMod(直接在config.toml中配置即可)](https://github.com/adityatelange/hugo-PaperMod) (本项目master分支和papermod分支)
