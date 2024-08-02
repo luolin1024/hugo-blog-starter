@@ -10,4 +10,14 @@
 通过vercel创建对应的githb仓库后，需要在vercel的项目中配置对应的参数：HUGO_VERSION=0.92.1
 
 ## 案例
+
+[hugo-vercel-starter](https://hugo-vercel-starter.vercel.app/)
+
 [luolin.online](https://luolin.online/)
+
+## 主题
+当前starter默认支持4个主题：
+- [DoIt(直接在config.toml中配置即可）](https://github.com/HEIGE-PCloud/DoIt?tab=readme-ov-file)
+- [clarity(直接在config.toml中配置即可)](https://github.com/chipzoller/hugo-clarity)
+- [PaperMod(直接在config.toml中配置即可)](https://github.com/adityatelange/hugo-PaperMod)
+- [next(只能使用config.yml，原config.toml文件需改名)](https://github.com/hugo-next/hugo-theme-next)

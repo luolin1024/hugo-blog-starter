@@ -4,15 +4,16 @@ baseURL = ""
 defaultContentLanguage = "zh-cn"
 # theme
 # 主题
-theme = "DoIt"
+theme = "hugo-PaperMod"
 # themes directory
 # 主题目录
 themesDir = "./themes"
 
 # website title
 # 网站标题
-title = "网站标题"
+title = "我的博客"
 
+enableSearch = true
 # whether to use robots.txt
 # 是否使用 robots.txt
 enableRobotsTXT = true
