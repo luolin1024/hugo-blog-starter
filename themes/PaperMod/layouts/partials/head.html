@@ -38,6 +38,13 @@
 
 {{- /* Styles */}}
 
+<!-- waline替换busuanzi浏览量统计 -->
+{{- if site.Params.busuanzi.enable -}}
+<script async src="https://npm.elemecdn.com/penndu@1.0.0/bsz.js"></script>
+{{- end }}
+<!-- umami进行浏览统计 -->
+<script defer src="https://blogumicounter.luolin.online/script.js" data-website-id="c8850e2c-16aa-465e-aa6f-5392c9397317"></script>
+
 {{- /* includes */}}
 {{- $includes := slice }}
 {{- $includes = $includes | append (" " | resources.FromString "assets/css/includes-blank.css")}}

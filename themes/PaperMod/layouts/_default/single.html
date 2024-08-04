@@ -25,8 +25,14 @@
       {{- partial "translation_list.html" . -}}
       {{- partial "edit_post.html" . -}}
       {{- partial "post_canonical.html" . -}}
+      <!-- waline替换busuanzi浏览量统计 -->
+      {{- if site.Params.busuanzi.enable -}}
+      本文总阅读量 <span id="busuanzi_value_page_pv"></span> 次
+      本文总访客量 <span id="busuanzi_value_page_uv"></span> 人
+      {{- end }}
     </div>
     {{- end }}
+
   </header>
   {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
