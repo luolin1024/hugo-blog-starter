@@ -168,3 +168,6 @@ markup:
     # lineNos: true
     # style: monokai
 
+permalinks:
+  # 读取front-matter中的date作为年/月
+  posts: /:year/:month/:title/
