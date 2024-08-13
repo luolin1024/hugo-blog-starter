@@ -17,6 +17,7 @@ minify:
   minifyOutput: true
 
 params:
+  timezone: "Asia/Shanghai"
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: luolin的博客
   description: "种一棵树最好的时间是十年前，其次是现在"
@@ -24,7 +25,8 @@ params:
   author: luolin
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+#  DateFormat: "January 2, 2006"
+  DateFormat: "2006-01-02" # 不能是2006-02-02，按照chatgpt的提示，会导致保存出现
   defaultTheme: auto # dark, light
   disableThemeToggle: true
 
@@ -169,5 +171,5 @@ markup:
     # style: monokai
 
 permalinks:
-  # 读取front-matter中的date作为年/月
+  # 读取front-matter中的date作为年/月：主要是优化seo，固定文章链接提高搜索排名
   posts: /:year/:month/:title/
