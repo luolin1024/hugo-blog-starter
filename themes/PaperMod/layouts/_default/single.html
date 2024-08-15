@@ -26,9 +26,9 @@
       {{- partial "edit_post.html" . -}}
       {{- partial "post_canonical.html" . -}}
       <!-- umami替换busuanzi浏览量统计 -->
-      {{- if site.Params.busuanzi.enable -}}
-      本文总阅读量 <span id="busuanzi_value_page_pv"></span> 次
-      本文总访客量 <span id="busuanzi_value_page_uv"></span> 人
+      {{- if site.Params.umami.enable -}}
+      本文总阅读量 <span id="umami_value_page_pv"></span> 次
+      本文总访客量 <span id="umami_value_page_uv"></span> 人
       {{- end }}
     </div>
     {{- end }}
