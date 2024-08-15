@@ -14,7 +14,7 @@
 
 ### 使用Vercel部署
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHumble-Xiang%2FDoIt-vercel-hugo-template&env=HUGO_VERSION&envDescription=HUGO_VERSION%20%E9%9C%80%E8%A6%81%E8%AE%BE%E7%BD%AE%E4%B8%BA%200.92.1)
+[![Deploy with Vercel](https://vercel.com/button)](https%3A%2F%2Fvercel.com%2Fnew%2Fclone%3Frepository-url%3Dhttps%3A%2F%2Fgithub.com%2Fluolin-cn%2Fhugo-vercel-starter%26env%3DHUGO_VERSION%26envDescription%3DHUGO_VERSION%E9%9C%80%E8%A6%81%E8%AE%BE%E7%BD%AE%E4%B8%BA0.92.1)
 
 通过vercel创建对应的githb仓库后，需要在vercel的项目中配置对应的参数：HUGO_VERSION=0.92.1
 
