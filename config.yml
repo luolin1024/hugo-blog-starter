@@ -1,5 +1,5 @@
-baseURL: "https://luolin1024.github.io/"
-title: luolin1024
+baseURL: "https://hugo-blog-starter.vercel.app/"
+title: hugo-blog-starter
 paginate: 5
 theme: PaperMod
 
@@ -19,9 +19,9 @@ minify:
 params:
   timezone: "Asia/Shanghai"
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: luolin的博客
+  title: hugo-blog-starter
   description: "种一棵树最好的时间是十年前，其次是现在"
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords: [Blog, Portfolio, PaperMod, hugo-blog-starter]
   author: luolin
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -56,14 +56,14 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "luolin的博客"
+    text: "hugo-blog-starter"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: luolin的博客
+    title: hugo-blog-starter
     subtitle: "种一棵树最好的时间是十年前，其次是现在"
     imageUrl: ""
     imageWidth: 120
