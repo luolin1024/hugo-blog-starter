@@ -4,18 +4,39 @@ layout: "links"
 url: "/links/"
 summary: links
 ---
-# 优秀技术博主
-[阮一峰的网络日志 (ruanyifeng.com)](https://www.ruanyifeng.com/blog/)
+<style>
+.friend-links {
+  display: flex;
+  justify-content: space-between; /* 让元素均匀分布在一排 */
+  flex-wrap: wrap; /* 允许元素换行 */
+}
 
-[首页 - 廖雪峰的官方网站 (liaoxuefeng.com)](https://www.liaoxuefeng.com/)
+.friend-link {
+  display: inline-block;
+  margin: 5%;
+  text-align: center;
+  text-decoration: none;
+  color: var(--content);
+  max-width: 15%;
+}
 
+.friend-link img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
 
-[冰河](https://www.cnblogs.com/binghe001)
+.friend-link .name {
+  margin-top: 5px;
+}
+</style>
 
-[美团](https://tech.meituan.com/)
+<div class="friend-links">
+  <a class="friend-link" href="https://www.luolin.online/" target="_blank">
+    <img src="https://www.luolin.online/signal.png" alt="友链图标">
+    <div class="name">luolin的博客</div>
+  </a>
+  <!-- 添加更多友链元素 -->
+</div>
 
-# 优秀技术博客
-
-
-[工作中如何做好技术积累]([工作中如何做好技术积累 - 美团技术团队 (meituan.com)](https://tech.meituan.com/2018/04/16/study-vs-work.html))
 
