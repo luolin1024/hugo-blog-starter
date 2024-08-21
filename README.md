@@ -17,15 +17,17 @@
 
 
 ### 使用github action部署
-
 - 修改.github/workflows/gh-pages.yml文件，将external_repository修改为自己的用户名和仓库名
 - 创建ACTIONS_DEPLOY_KEY，将私钥添加到仓库的secrets中
 
 
 ## 案例
 [luolin.online](https://www.luolin.online/)
+[luolin1024.github.io](https://luolin1024.github.io)
 
-[hugo-vercel-starter](https://hugo-vercel-starter.vercel.app/)
+[hugo-blog-starter](https://hugo-blog-starter.vercel.app/)
+
+[blog.luolin.us.kg](https://blog.luolin.us.kg/)
 
 ## 主题切换
 
