@@ -12,8 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
     var umiYumingUrl = "https://blogcounter.luolin.us.kg" // 域名
     var umiTime = Date.parse(new Date());
     var umiUrl = `${umiYumingUrl}/api/websites/${umiId}/stats?startAt=0000000000&endAt=${umiTime}`;
-    console.log("umiYumingUrl:"+umiYumingUrl)
-    console.log("hhh:")
 
     fetch(umiUrl, {
         method: 'GET',
