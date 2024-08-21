@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     /**
-     * curl --location 'https://blogumicounter.luolin.online/api/auth/login' \
+     * curl --location 'https://blogcounter.luolin.us.kg/api/auth/login' \
         --header 'Content-Type: application/json' \
         --data '{
         "username":"账号",
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
      */
     var umiToken = "kGVT9vDz/LDv4PnGDQzaJpE14V8Sc36DyyhajxOajBdriS1LWet4jTd1F8pZGQzvMEZTqCpZhUr5LrUA6kRmna9R8JTYzlPfSezc104PSLAFYn1//S1X4NeVtH7eRKkeAqM0jjPk0EmQOLr3f7YOweg4t/0hz0Ma5uF07sjEM6n6zNg5XNpxawrg4LRsySf9KORELjKoNiLSU2BktzPQNduXZM1t9MDLbHx4Fy81cG31PZfjZI9Vtce2RJl8NhA77ffFtW6zASz6I6ENw4stwvxJaKTt1xVpIe8rzGhDGEI0rK7t7TGIYAiU7Ddvv8xGSaXX0uMw3tJXf1wYc9gKeF01tCslIbsYyQ=="  // 获取到的 token
     var umiId = "c8850e2c-16aa-465e-aa6f-5392c9397317"  // 获取到的 websiteId
-    var umiYumingUrl = "https://blogumicounter.luolin.online" // 域名
+    var umiYumingUrl = "https://blogcounter.luolin.us.kg" // 域名
     var umiTime = Date.parse(new Date());
     var umiUrl = `${umiYumingUrl}/api/websites/${umiId}/stats?startAt=0000000000&endAt=${umiTime}`;
     console.log("umiYumingUrl:"+umiYumingUrl)
